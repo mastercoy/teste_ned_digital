@@ -1,0 +1,192 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+div {
+    display: flex;
+    flex-flow: wrap;
+    font-family: arial;
+    font-size: 15px;
+}
+
+:focus {
+    outline:0 !important;
+}
+
+.btn {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:hover {
+    opacity: 70%;
+}
+
+.btn:focus {
+    color: #ffffff;
+    border-color: #ffffff;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn.btnCadastrar {
+    background-color: #00c8b3;
+    border-color: #00c8b3;
+    border-radius: 50px;
+    min-width: 150px;
+    transition: 0.5s;
+    margin-left: 30px
+}
+
+.btn.btnCadastrar:hover {
+    background-color: #00c8b3;
+}
+
+.btn.btnCadastrar:focus {
+    background-color: #00c8b3;
+}
+
+.btn.btnConfirmar {
+    background-color: #00c8b3;
+    border-color: #00c8b3;
+    border-radius: 10px;
+    transition: 0.5s;
+    min-width: 70px;
+    outline: none;
+}
+
+.btn.btnConfirmar:hover {
+    background-color: #00c8b3;
+}
+
+.btn.btnConfirmar:focus {
+    background-color: #00c8b3;
+}
+
+.btn.btnAdicionar {
+    background-color: #00c8b3;
+    border-color: #00c8b3;
+    border-radius: 10px;
+    transition: 0.5s;
+    min-width: 70px;
+    outline: none;
+}
+
+.btn.btnAdicionar:hover {
+    background-color: #00c8b3;
+}
+
+.btn.btnAdicionar:focus {
+    background-color: #00c8b3;
+}
+
+.btn.btnEdit {
+    background-color: #429bf5;
+    border-color: #429bf5;
+    border-radius: 10px;
+    transition: 0.5s;
+    min-width: 70px;
+    outline: none;
+    margin-right: 1%;
+}
+
+.btn.btnDelete {
+    background-color: #6f778c;
+    border-color: #6f778c;
+    border-radius: 10px;
+    transition: 0.5s;
+    min-width: 70px;
+    outline: none;
+    margin-left: 1%;
+}
+
+.btn.btnDelete:hover {
+
+    opacity: 70%;
+}
+
+h4 {
+    margin: 0 auto;
+    color: black;
+    font-family: helvetica, sans-serif;
+}
+
+h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    color: black;
+    font-family: helvetica, sans-serif;
+}
+
+label {
+    font-weight: bold;
+    margin-left: 1%;
+    color: gray;
+}
+
+label:focus {
+    color: #333333
+}
+
+table {
+    margin-left: 2%;
+}
+
+input[type=text],input[type=email], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 0.1px;
+    border-bottom: 1px solid gray;
+    border-radius: 0px;
+    resize: vertical;
+    margin-right: 50px;
+    min-width: 390px;
+    max-width: 390px
+
+}
+
+input[type=text]:focus,input[type=email]:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input:valid{
+    border-bottom: 1px solid #6ef567;
+}
+
+input:invalid {
+}
+
+input:invalid:required {
+    border-bottom: 1px solid gray;
+}
+
+.form-control{
+    font-size: 24px;
+}
+
+.form-input{
+
+}
+
+.form-control.is-invalid {
+    border: none;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+  }
+ }
+
+
+
