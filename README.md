@@ -28,7 +28,24 @@ composer install
 
 O Composer irá instalar as dependencias listadas no arquivo package.json
 
-Inicie os servidores MySQL e Apache. Agora execute o seguinte comando na pasta raiz do projeto:
+Inicie os servidores MySQL e Apache. Crie um banco de dados pelo phpMyAdmin ou outra ferramenta preferencial.
+Abra o arquivo '.env.example' da pasta raíz e procure por 'DB_DATABASE=laravel', edite para o nome do banco de dados criado por você.
+Também edite 'DB_USERNAME=root' e 'DB_PASSWORD=' com os dados apropriados (usuário e senha do seu MySQL). Agora renomeie o arquivo de '.env.example' para '.env'
+
+exemplo:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_ned
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+
+
+
+
+Agora execute o seguinte comando na pasta raiz do projeto:
 
 ```
 php artisan migrate --seed
