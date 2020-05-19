@@ -5,7 +5,7 @@ Esse projeto foi construído com intuito de ser contratado pela N.E.D DIGITAL.
 ## Começando
 
 O objetivo dessas instruções é de ajudar-lhe a obter uma cópia do projeto rodando 100% na sua máquina local com
-propósito de testes e avaliação.
+propósito de testes e avaliação. Obtenha uma cópia do projeto aqui pelo [GitHub](https://github.com/mastercoy/teste_ned_digital.git)
 
 ### Pré-requisito
 
